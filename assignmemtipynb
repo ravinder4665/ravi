@@ -1,0 +1,105 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ravinder4665/ravi/blob/main/assignmemtipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zo4IPpWRFtrY",
+        "outputId": "e0f5d85b-5a67-4b23-b145-5694b931fe4b"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Adult\n"
+          ]
+        }
+      ],
+      "source": [
+        "age = 27\n",
+        "if (age > 50):\n",
+        "    print(\"Senior\")\n",
+        "elif (30<= age <= 40):\n",
+        "    print(\"Old\")\n",
+        "elif (25<= age <= 30):\n",
+        "    print(\"Adult\")\n",
+        "elif (age>18):\n",
+        "    print(\"Young\")\n",
+        "else:\n",
+        "    print(\"Not categorized\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "VVIPDzgENLeB"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "order_quantity = int(input(\"Enter the order quantity: \"))\n",
+        "if order_quantity <= 10:\n",
+        "    price = 50\n",
+        "elif order_quantity <= 30:\n",
+        "        price = 30\n",
+        "else:\n",
+        "    price = 10\n",
+        "\n",
+        "total_price = price * order_quantity\n",
+        "\n",
+        "print(f\"The total price for {order_quantity} units is Rs {total_price}.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VARr9t66Ubp8",
+        "outputId": "b273076f-9f57-4778-8d82-eac8a81c790b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the order quantity: 10\n",
+            "The total price for 10 units is Rs 500.\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
